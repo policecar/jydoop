@@ -20,6 +20,7 @@ import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.io.SequenceFile;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.hadoop.conf.Configuration;
@@ -34,7 +35,7 @@ import org.apache.commons.lang.StringUtils;
 
 public class HadoopDriver extends Configured implements Tool {
   public static enum MapperType {
-     HBASE, TEXT, JYDOOP;
+     HBASE, TEXT, JYDOOP, JSON;
   }
 
   private static PythonWrapper initPythonWrapper(String pathname, Job job) throws IOException
@@ -230,6 +231,45 @@ public class HadoopDriver extends Configured implements Tool {
     }
   }
 
+  public static class JsonMapper extends Mapper<LongWritable, Text, PythonKey, PythonValue>  {
+    private PyObject mapfunc;
+    private PyObject contextobj;
+    private PythonWrapper pwrapper;
+
+    public void setup(Context context) throws IOException, InterruptedException
+    {
+      super.setup(context);
+      pwrapper = getPythonWrapper(context.getConfiguration());
+      mapfunc = pwrapper.getFunction("map");
+      contextobj = Py.java2py(new ContextWrapper(context));
+
+      PyObject setupfunc = pwrapper.getFunction("mapsetup");
+      if (setupfunc != null) {
+        setupfunc.__call__(contextobj);
+      }
+    }
+
+    public void cleanup(Context context)
+    {
+      PyObject cleanupfunc = pwrapper.getFunction("mapcleanup");
+      if (cleanupfunc != null) {
+        cleanupfunc.__call__(contextobj);
+      }
+    }
+
+    public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+
+      // map(key, value, context)
+
+      String[] valueBits = new String(value.getBytes()).split("\t", 2);
+      PyObject[] args = new PyObject[3];
+      args[0] = Py.newString(key.toString());
+      args[1] = Py.newString(value.toString());
+      args[2] = contextobj;
+      mapfunc.__call__(args);
+    }
+  }
+
 
   public static class MyCombiner extends Reducer<PythonKey, PythonValue, PythonKey, PythonValue> {
     private PyObject combinefunc;
@@ -328,6 +368,9 @@ public class HadoopDriver extends Configured implements Tool {
        break;
     case JYDOOP:
        job.setMapperClass(JydoopMapper.class);
+       break;
+    case JSON:
+       job.setMapperClass(JsonMapper.class);
        break;
     default:
        // TODO: Warn?
