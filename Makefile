@@ -11,6 +11,7 @@ JAVA_SOURCE=$(addprefix org/mozilla/jydoop/,PythonWrapper.java PythonValue.java 
 TASK=HadoopDriver
 ARGS=input output
 TEST_PY=test.py
+
 all: driver.jar
 
 check: driver.jar
@@ -20,7 +21,8 @@ run: driver.jar
 	java -cp driver.jar:$(CP) org.mozilla.jydoop.$(TASK)
 
 hadoop: driver.jar
-	time hadoop jar $< org.mozilla.jydoop.$(TASK) -libjars $(subst :,$(comma),$(JACKSON_CP)) $(ARGS)
+	hadoop jar $< org.mozilla.jydoop.$(TASK) -libjars $(subst :,$(comma),$(JACKSON_CP)) $(ARGS)
+	#time hadoop jar $< org.mozilla.jydoop.$(TASK) -libjars $(subst :,$(comma),$(JACKSON_CP)) $(ARGS)
 
 out/pylib:
 	mkdir -p out
@@ -31,7 +33,7 @@ out/scripts:
 	ln -s ../scripts out/scripts
 
 driver.jar: out/scripts out/pylib $(wildcard pylib/*.py scripts/*.py scripts/fhr/*.py) $(JAVA_SOURCE)
-	javac -Xlint:deprecation -d out  -cp $(CP) $(JAVA_SOURCE)
+	javac -source 1.6 -target 1.6 -Xlint:deprecation -d out -cp $(CP) $(JAVA_SOURCE)
 	jar -cvf $@ -C out .
 
 %.class: ../%.java
