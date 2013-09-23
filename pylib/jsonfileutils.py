@@ -1,4 +1,4 @@
-"""Utilities for querying json files using jydoop."""
+"""Utilities for querying generic text-based (non-sequence) files using jydoop."""
 
 def setupjob(job, args):
     """
