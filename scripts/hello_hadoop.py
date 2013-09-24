@@ -42,3 +42,13 @@ reduce = jydoop.sumreducer
 # prevent data from being deleted from HDFS after job completion
 def skip_local_output():
     return True
+
+# customize this method for local output
+# ( make sure skip_local_output returns False )
+def output( path, results ):
+    path = './local_output/hello.out'
+    f = open( path, 'w' )
+    for k,v in results:
+        f.write( "%s\t%s\n" % ( k, v ))
+    f.close()
+
