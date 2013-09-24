@@ -1,0 +1,55 @@
+flowers	even/RB/advmod/3 our/PRP$/poss/3 flowers/NNS/nsubj/0	11	1864,1	1941,1	1957,1	1966,1	1977,2	1978,2	1996,1	1997,2
+flowers	even/RB/advmod/3 some/DT/det/3 flowers/NNS/conj/0	24	1940,1	1959,1	1963,1	1976,1	1983,1	1986,1	1987,1	1988,2	1989,1	1993,1	1999,1	2000,1	2001,1	2002,1	2003,5	2004,1	2007,1	2008,2
+flowers	even/RB/advmod/3 some/DT/det/3 flowers/NNS/nsubj/0	22	1926,1	1967,1	1980,1	1992,1	1994,5	1995,3	1996,1	1999,1	2000,1	2001,2	2002,1	2004,1	2008,3
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/appos/0	43	1907,1	1917,2	1945,2	1946,1	1952,2	1959,1	1961,5	1962,1	1974,2	1978,1	1979,3	1986,3	1988,1	1992,1	1993,3	1994,1	1997,1	2000,1	2002,6	2004,2	2007,3
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/attr/0	12	1889,2	1957,1	1984,1	1991,1	1993,1	2001,1	2007,1	2008,4
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/attr/0 in/IN/prep/3 the/DT/det/6 spring/NN/pobj/4	12	1953,5	1955,1	1959,4	1987,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/conj/0	96	1828,1	1834,2	1835,1	1853,1	1869,1	1881,1	1890,2	1891,1	1892,1	1893,4	1898,1	1899,6	1907,3	1911,1	1924,2	1926,2	1939,1	1942,1	1950,2	1952,1	1958,4	1959,1	1964,1	1967,3	1970,3	1974,1	1978,1	1985,1	1987,1	1989,2	1992,1	1993,3	1997,2	2000,8	2001,1	2002,5	2003,3	2004,3	2005,1	2006,4	2007,3	2008,9
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/dep/0	58	1828,1	1849,1	1855,1	1886,1	1924,3	1927,1	1934,3	1947,1	1960,1	1961,2	1963,1	1966,3	1973,2	1974,1	1975,1	1978,1	1979,2	1980,1	1987,1	1988,1	1992,4	1995,2	1996,1	2000,1	2001,1	2002,2	2003,1	2004,5	2006,1	2007,2	2008,9
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/dobj/0	35	1877,4	1893,1	1904,4	1905,1	1918,1	1925,1	1931,1	1937,1	1939,4	1951,2	1952,1	1956,1	1981,1	1986,1	1987,2	1998,2	2002,2	2003,1	2007,2	2008,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/dobj/0 up/RP/prep/3 on/IN/prep/3 the/DT/det/7 altar/NN/pobj/5	12	1988,1	1989,1	1990,1	1992,2	1994,5	1997,1	2002,1
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0	1046	1828,1	1836,1	1841,2	1842,2	1844,1	1845,1	1846,1	1849,1	1850,4	1851,2	1852,1	1854,6	1855,1	1856,1	1864,3	1871,1	1873,3	1877,1	1878,3	1880,3	1884,1	1885,1	1887,3	1888,1	1890,12	1891,3	1892,1	1893,2	1894,4	1895,5	1896,2	1897,6	1899,3	1900,3	1901,5	1902,6	1903,3	1904,7	1905,2	1906,4	1907,20	1908,3	1909,4	1910,10	1911,5	1913,4	1914,13	1915,1	1916,1	1917,8	1918,7	1919,2	1920,10	1921,1	1922,8	1923,4	1924,4	1925,8	1926,3	1927,3	1928,7	1929,1	1930,9	1931,9	1932,2	1933,1	1934,7	1935,5	1936,6	1937,5	1938,8	1939,8	1940,10	1941,5	1942,1	1943,9	1944,1	1946,5	1947,3	1948,1	1949,5	1950,6	1951,5	1952,4	1953,3	1954,4	1955,8	1956,7	1957,2	1958,7	1959,2	1960,2	1961,5	1962,4	1963,5	1964,5	1965,6	1966,3	1967,12	1968,9	1969,13	1970,5	1971,12	1972,7	1973,5	1974,7	1975,8	1976,10	1977,3	1978,12	1979,7	1980,10	1981,9	1982,11	1983,8	1984,12	1985,7	1986,3	1987,16	1988,13	1989,13	1990,11	1991,10	1992,12	1993,12	1994,24	1995,11	1996,19	1997,17	1998,10	1999,8	2000,12	2001,13	2002,27	2003,34	2004,31	2005,34	2006,45	2007,33	2008,53
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 and/CC/cc/3 birds/NNS/conj/3	25	1774,1	1841,2	1842,4	1843,1	1844,2	1847,1	1852,1	1854,1	1860,3	1866,1	1947,6	2006,1	2008,1
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 and/CC/cc/3 the/DT/det/6 moss/NN/conj/3 on/IN/prep/3 the/DT/det/9 stones/NNS/pobj/7	16	1953,2	1968,1	1979,1	1981,2	1983,1	1984,1	1988,1	1990,2	1992,2	1996,1	2003,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 and/CC/cc/3 trees/NNS/conj/3	22	1899,1	1914,1	1929,5	1934,2	1966,1	1981,1	1999,1	2001,2	2004,4	2006,2	2007,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 by/IN/prep/3 the/DT/det/6 wayside/NN/pobj/4	12	1915,5	1925,1	1929,1	2007,2	2008,3
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 grew/VBD/rcmod/3	12	1924,1	1946,2	1948,1	1958,1	1975,1	1977,1	1984,1	1994,1	2005,1	2006,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 in/IN/prep/3 the/DT/det/6 garden/NN/pobj/4	16	1891,1	1894,2	1928,1	1946,2	1975,1	1988,1	1993,1	1995,1	2002,3	2005,2	2007,1
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 in/IN/prep/3 the/DT/det/6 gardens/NNS/pobj/4	10	1952,3	1989,2	1990,4	2007,1
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 of/IN/prep/3 the/DT/det/6 field/NN/pobj/4	49	1796,1	1801,2	1810,1	1826,1	1829,1	1859,1	1865,1	1866,2	1868,1	1873,5	1884,1	1890,1	1893,1	1902,1	1908,1	1911,3	1912,1	1917,1	1920,1	1953,1	1967,1	1970,1	1988,1	1993,1	2000,1	2001,2	2004,2	2006,1	2007,2	2008,9
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 themselves/PRP/dep/3	10	1872,1	1910,2	1939,3	1945,1	1949,1	2006,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 touch/VB/rcmod/3	53	1869,1	1873,1	1879,1	1887,1	1895,2	1899,11	1901,1	1903,1	1906,1	1911,9	1922,1	1933,1	1962,3	1966,4	1968,1	1969,1	1976,1	1984,1	1996,1	2001,1	2002,4	2003,1	2006,1	2007,1	2008,2
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubj/0 whose/WP$/rcmod/3	14	1945,1	1952,2	1963,2	1967,1	1974,1	1980,1	1982,2	1997,1	1999,1	2000,1	2005,1
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubjpass/0	197	1842,1	1856,1	1857,1	1887,1	1888,2	1889,1	1890,4	1895,1	1897,1	1900,1	1907,8	1909,2	1911,1	1917,1	1920,3	1923,3	1925,2	1926,2	1932,1	1935,6	1936,1	1938,4	1941,1	1947,4	1949,1	1951,1	1958,1	1959,2	1963,4	1964,2	1965,5	1966,3	1967,1	1970,5	1971,1	1972,1	1974,3	1975,1	1977,4	1978,4	1979,4	1980,1	1981,2	1982,2	1984,2	1985,3	1986,1	1987,1	1988,3	1991,2	1992,6	1993,1	1994,2	1995,2	1996,4	1997,4	1998,5	1999,4	2000,5	2001,6	2002,3	2003,9	2004,10	2005,8	2006,8	2007,4	2008,3
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubjpass/0 had/VBD/aux/5 smiled/VBN/rcmod/3	15	1906,1	1907,10	1908,1	1944,1	1999,1	2004,1
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/nsubjpass/0 in/IN/prep/3 some/DT/det/6 way/NN/pobj/4	10	1908,6	2008,4
+flowers	even/RB/advmod/3 the/DT/det/3 flowers/NNS/pobj/0 tended/VBD/rcmod/3 and/CC/cc/3 the/DT/det/7 creatures/NNS/conj/3	10	1902,3	2001,1	2004,1	2007,3	2008,2
+flowers	even/RB/advmod/3 these/DT/det/3 flowers/NNS/nsubj/0	37	1857,1	1859,1	1860,1	1863,1	1914,2	1921,2	1929,2	1951,1	1965,3	1968,3	1986,1	1990,1	1994,1	1997,1	2000,4	2001,4	2003,3	2004,3	2006,1	2007,1
+flowers	even/RB/advmod/3 white/JJ/amod/3 flowers/NNS/conj/0	13	1890,1	1892,1	1898,1	1899,1	1900,1	1905,1	1953,1	1979,1	1987,1	1989,1	2003,1	2004,1	2007,1
+flowers	even/RB/advmod/3 white/JJ/amod/3 flowers/NNS/nsubj/0	14	1811,4	1817,1	1934,1	1968,1	1979,1	1997,1	1999,1	2002,2	2004,1	2005,1
+flowers	even/RB/advmod/3 wild/JJ/amod/3 flowers/NNS/nsubj/0	37	1902,1	1918,1	1919,6	1922,2	1926,1	1935,2	1939,2	1948,2	1950,1	1964,1	1977,2	1987,1	1989,1	1993,1	1998,1	2004,2	2005,1	2006,1	2007,2	2008,6
+flowers	even/RB/advmod/4 a/DT/det/4 few/JJ/amod/4 flowers/NNS/conj/0	49	1858,1	1862,2	1864,2	1871,1	1874,1	1882,1	1884,1	1917,7	1923,1	1924,2	1940,3	1949,1	1964,3	1969,1	1977,1	1982,2	1985,1	1989,1	1998,1	2000,1	2001,3	2004,3	2005,2	2006,1	2008,6
+flowers	even/RB/advmod/4 a/DT/det/4 few/JJ/amod/4 flowers/NNS/nsubj/0	34	1903,6	1904,1	1905,1	1906,1	1913,1	1922,1	1932,1	1941,1	1947,2	1961,3	1964,1	1966,1	1977,1	1989,4	1992,1	1994,1	1998,2	1999,3	2003,1	2007,1
+flowers	even/RB/advmod/4 a/DT/det/4 few/JJ/amod/4 flowers/NNS/nsubj/0 of/IN/prep/4 any/DT/det/7 colour/NN/pobj/5	17	1900,3	1906,3	1923,2	1924,1	1932,1	1935,1	1951,1	1972,1	2003,1	2004,1	2006,1	2008,1
+flowers	even/RB/advmod/4 the/DT/det/4 artificial/JJ/amod/4 flowers/NNS/nsubj/0	18	1947,1	1948,6	1969,1	1971,2	1973,3	1978,2	2004,1	2005,2
+flowers	even/RB/advmod/4 the/DT/det/4 banked/VBN/amod/4 flowers/NNS/nsubj/0 below/IN/prep/4 the/DT/det/7 pictures/NNS/pobj/5	10	1936,2	1964,1	1967,1	1968,1	1975,1	1996,1	2001,1	2008,2
+flowers	even/RB/advmod/4 the/DT/det/4 beautiful/JJ/amod/4 flowers/NNS/nsubj/0	11	1954,3	1958,3	1971,1	2002,1	2007,3
+flowers	even/RB/advmod/4 the/DT/det/4 beautiful/JJ/amod/4 flowers/NNS/nsubjpass/0	11	1985,3	1995,1	2004,2	2006,5
+flowers	even/RB/advmod/4 the/DT/det/4 blue/JJ/amod/4 flowers/NNS/nsubj/0	20	1867,1	1896,1	1904,2	1915,1	1918,1	1925,1	1926,1	1945,1	1985,1	1990,1	1999,1	2003,2	2004,1	2006,1	2007,2	2008,2
+flowers	even/RB/advmod/4 the/DT/det/4 blue/JJ/amod/4 flowers/NNS/nsubj/0 gathered/VBD/rcmod/4	12	1843,1	1844,1	1845,4	1849,2	1850,2	1968,2
+flowers	even/RB/advmod/4 the/DT/det/4 cut/NN/amod/4 flowers/NNS/nsubj/0	10	1981,3	1986,1	1987,1	1997,3	1999,1	2004,1
+flowers	even/RB/advmod/4 the/DT/det/4 delicate/JJ/amod/4 flowers/NNS/pobj/0 of/IN/prep/4 the/DT/det/7 stove/NN/pobj/5	12	1895,4	1899,1	1900,1	1906,1	1907,1	1909,1	1921,2	1933,1
+flowers	even/RB/advmod/4 the/DT/det/4 finest/JJS/amod/4 flowers/NNS/dobj/0	19	1896,2	1900,2	1901,5	1905,1	1947,2	1969,1	2000,1	2004,1	2007,2	2008,2
+flowers	even/RB/advmod/4 the/DT/det/4 humblest/JJS/amod/4 flowers/NNS/pobj/0	10	1918,1	1956,3	1969,1	1995,1	2007,2	2008,2
+flowers	even/RB/advmod/4 the/DT/det/4 little/JJ/amod/4 flowers/NNS/nsubj/0	13	1847,1	1851,2	1853,1	1862,1	1928,1	1950,3	1965,2	1970,2
+flowers	even/RB/advmod/4 the/DT/det/4 little/JJ/amod/4 flowers/NNS/nsubj/0 of/IN/prep/4 the/DT/det/7 fields/NNS/pobj/5	10	1935,3	1938,2	1959,1	1989,1	2007,2	2008,1
+flowers	even/RB/advmod/4 the/DT/det/4 loveliest/JJS/amod/4 flowers/NNS/nsubj/0	30	1891,2	1932,1	1933,2	1939,1	1954,2	1957,1	1964,2	1971,2	1977,2	1994,1	1995,1	2006,2	2007,4	2008,7
+flowers	even/RB/advmod/4 the/DT/det/4 old/JJ/amod/4 flowers/NNS/nsubj/0	18	1873,1	1874,1	1890,2	1897,2	1899,1	1911,2	1917,1	1926,1	1933,1	1948,1	1962,1	2001,1	2006,2	2007,1
+flowers	even/RB/advmod/4 the/DT/det/4 orange/NN/nn/4 flowers/NNS/nsubj/0	16	1889,6	1896,7	2006,1	2008,2
+flowers	even/RB/advmod/4 the/DT/det/4 pomegranate/JJ/amod/4 flowers/NNS/nsubj/0 in/IN/prep/4 your/PRP$/poss/7 hair/NN/pobj/5	13	1877,1	1881,2	1882,1	1887,1	2004,1	2006,1	2007,1	2008,5
+flowers	even/RB/advmod/4 the/DT/det/4 prairie/NN/nn/4 flowers/NNS/nsubjpass/0 and/CC/cc/4 the/DT/det/7 blossoms/NNS/conj/4	33	1882,9	1883,3	1887,1	1889,1	1892,1	1900,3	1909,1	1910,3	2004,1	2006,1	2007,3	2008,6
+flowers	even/RB/advmod/4 the/DT/det/4 red/JJ/amod/4 flowers/NNS/dobj/0 in/IN/prep/4 the/DT/det/7 garden/NN/pobj/5 fingered/JJ/amod/4 under/IN/prep/4 the/DT/det/11 wall/NN/pobj/9	10	1961,1	1962,2	1968,1	1970,1	1974,1	1981,1	1982,1	1987,1	2001,1
+flowers	even/RB/advmod/4 the/DT/det/4 scarlet/JJ/amod/4 flowers/NNS/nsubj/0 of/IN/prep/4 passion/NN/pobj/5	23	1923,3	1927,1	1958,4	1962,2	1969,2	1970,1	1977,1	1982,7	2001,2
+flowers	even/RB/advmod/4 the/DT/det/4 spring/NN/nn/4 flowers/NNS/nsubj/0	13	1863,3	1870,4	1875,2	1975,1	1996,1	2002,2
+flowers	even/RB/advmod/4 the/DT/det/4 very/JJ/amod/4 flowers/NNS/nsubj/0	12	1851,2	1889,2	1895,1	1947,2	1961,1	1970,1	1977,1	1980,2
+flowers	even/RB/advmod/4 the/DT/det/4 white/JJ/amod/4 flowers/NNS/nsubj/0	20	1855,1	1901,9	1902,1	1910,1	1922,1	1968,2	1971,1	2001,1	2005,1	2006,2
